@@ -6,6 +6,9 @@
     <title>Responsive Navbar</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+
+
+
 </head>
 <body>
 
@@ -122,7 +125,7 @@ css
 
 
 
-js 
+js  testing javascript compt
 
 
 
