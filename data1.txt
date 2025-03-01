@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Sections</title>
+    <link rel="stylesheet" href="hero.css">
+</head>
+<body>
+
+    <section class="hero hero-1">
+        <h1>Welcome to Our Website</h1>
+        <p>Discover amazing features.</p>
+    </section>
+
+    <section class="hero hero-2">
+        <h1>Our Services</h1>
+        <p>We provide the best solutions.</p>
+    </section>
+
+    <section class="hero hero-3">
+        <h1>Join Us Today</h1>
+        <p>Start your journey with us.</p>
+    </section>
+
+</body>
+</html>
+ 
+ .hero {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.hero-1 {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+}
+
+.hero-2 {
+    background: linear-gradient(45deg, #28a745, #84d15f);
+}
+
+.hero-3 {
+    background: linear-gradient(45deg, #ff5722, #ff9800);
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-tertiary">Tertiary Button</button>
+
+</body>
+</html>
+
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background: #28a745;
+    color: white;
+}
+
+.btn-tertiary {
+    background: #ff5722;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
