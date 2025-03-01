@@ -7,6 +7,10 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const app = express();
 const apiKey = process.env.API_KEY;
 
+
+
+let ReactComp = [];
+let ModuleCss = [];
 if (!apiKey) {
   console.error("❌ API_KEY is not defined. Check your .env file.");
   process.exit(1);
